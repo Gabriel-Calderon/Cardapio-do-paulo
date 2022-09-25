@@ -5,183 +5,49 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rest du Paulo</title>
-    
-
-    <style>
-
-
-       
-
-        body {
-            font-family: Verdana, Geneva, Tahoma, sans-serif;
-        }
-
-        header {
-            background-image: url('imagens/rest.jpeg');
-            background-position: left center;
-            background-repeat: repeat;
-            background-size: auto;
-            color: red;
-            padding: 20px;
-            margin: -10px -10px 10px -10px;
-            box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.466);
-        }
-
-        header > h1 {
-            display: inline-block;
-            background-color: rgba(0, 0, 0, 0.507);
-        }
-
-        a {
-            padding: 20px;
-            color: white;
-            text-decoration: none;
-        }
-
-        a:hover {
-            color: red;
-            background-color: rgba(0, 0, 0, 0.452);
-        }
-
-
-        img.face {
-            width: 25px;
-            height: 25px;
-            border-radius: 50px;
-        }
-
-        img.insta {
-            width: 25px;
-            height: 25px;
-            border-radius: 60px;
-        }
-
-        h1 {
-            padding: 20px 20px 5px 5px;
-        }
-
-
-
-        div {
-            width: 200px;
-            height: 200px;
-            background-color: red;
-            margin: 2px;
-            border-radius: 5px;
-            display: inline-block;
-               
-        }
-
-        p {
-            background-color: rgba(0, 0, 0, 0.411);
-            color: white;
-            padding-left: 10px;
-    
-
-        }
-
-        .combo{
-            background-image: url('imagens/promo.jfif');
-        }
-
-        .promoPizza {
-            background-image: url('imagens/pizza.jfif');
-        }
-
-        .xis {
-            background-image: url('imagens/xis.jfif');
-        }
-
-        .dog{
-            background-image: url('imagens/cachorro.jpg');
-            background-size: 200px 200px;
-            background-repeat: no-repeat;
-        }
-
-        h1.t-unid {
-            text-align: center;
-        }
-
-        .CB, .JS {
-            display: inline-block;
-            margin: 30px 70px 30px 70px;
-            
-        }
-
-    </style>
-
+    <title>Cardápio-Du-Paulo</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <header>
-        <h1>Restaurante du Paulo</h1>
+        <h1>Cardápio du Paulo</h1>
         <nav>
-            <a href="https://www.instagram.com/restaurantedupaulo/" target="_blank">
-                <img src="imagens/insta.jfif" alt="nosso instagram" class="insta">
+            <a href="#">
+                <img src="imagens/insta.jfif" alt="instagram" class="icones">
                 Nosso instagram
             </a>
 
-            <a href="https://pt-br.facebook.com/restaurantedupaulo/" target="_blank">
-                <img src="imagens/face.jfif" alt="nosso facebook" class="face">
-                Nosso Facebook
+            <a href="#">
+                <img src="imagens/face.jfif" alt="facebook" class="icones">
+                Nosso facebook
             </a>
         </nav>
     </header>
     <main>
+        <div>
+            <a href="https://api.whatsapp.com/send/?phone=99094189&text&type=phone_number&app_absent=0" target="_blank"
+                id="chamarnowpp">
+                Falar com atendente para fazer pedido
+            </a>
+        </div>
 
-            <section>
-                <div class="combo">
-                    <p>Combos promocionais</p>
-                </div>
-                <div class="promoPizza">
-                    <p>Promoção pizza</p>
-                </div>
-                <div class="xis">
-                    <p>xis</p>
-                </div>
-                <div class="dog">
-                    <p>Cachorro quente</p>
-                </div>
-                <div class="pastel">
-                    <p>Pastéis</p>
-                </div>
-                <div class="torre">
-                    <p>Torre de batata</p>
-                </div>
-                
-                        <section>
-                <div class="massa">
-                    <p>Massas</p>
-                </div>
-                <div class="ala">
-                    <p>Alaminuta</p>
-                </div>
-                <div class="porcao">
-                    <p>Picadão e porções</p>
-                </div>
-                <div class="pizza">
-                    <p>Pizza</p>
-                </div>
-                <div class="bebida">
-                    <p>Bebidas</p>
-                </div>
-                <div class="adicional">
-                    <p>Adicionais</p>
-                </div>
-            </section>
+        <section class="opcoes">
+            <ul>
+                <li><a href="#">Xis</a></li>
+                <li><a href="#">Cachorro-quente</a> </li>
+                <li><a href="#">Pastéis</a></li>
+                <li><a href="#">Alaminutas</a></li>
+                <li> <a href="#">Massas</a></li>
+                <li><a href="#">Torre de batata</a></li>
+                <li><a href="#">Picadão e porções</a></li>
+                <li><a href="#">Pizzas</a></li>
+                <li><a href="#">Bebidas</a></li>
+                <li><a href="#">Adicionais</a></li>
+            </ul>
 
-            <section class="unidades">
-                <h1 class="t-unid">Unidades</h1>
-                <h2 class="CB">Caio Brandão de Mello, 155 - Humaitá</h2>
-                <h2 class="JS">José Aloísio Filho, 695 - Humaitá</h2>
-            </section>
- 
-
+        </section>
     </main>
-    <footer>
-
-    </footer>
 </body>
 
 </html>
