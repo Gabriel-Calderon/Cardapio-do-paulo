@@ -32,21 +32,36 @@ header img.icones {
 
 
 a#chamarnowpp {
-
+    margin-bottom: 25px;
     text-decoration: none;
     color: black;
     font-weight: bold;
-    font-size: 1.15m;
+    font-size: 1.15em;
     padding: 10px ;
     border-radius: 30px;
     background-color: rgba(0, 0, 0, 0.336);
     display: block;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5) ;
     
 }
+
 
 a#chamarnowpp:hover {
 
     font-weight: bolder;
+}
+
+a#pginicial {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 1.15em;
+    padding: 10px ;
+    border-radius: 30px;
+    background-color: rgba(0, 0, 0, 0.336);
+    display: inline;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5) ;
+    
 }
 
 .opcoes {
@@ -69,7 +84,8 @@ li > a {
     border-radius: 25px;
     font-weight: bold;
     display: block;
-    background-image: linear-gradient(to left,rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.336) );
+    background-color: rgba(0, 0, 0, 0.336) ;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5) ;
 
     
  
