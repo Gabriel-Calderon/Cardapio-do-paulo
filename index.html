@@ -6,31 +6,62 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rest du Paulo</title>
+    
 
     <style>
 
+
+       
+
         body {
-            font-family: Arial, Helvetica, sans-serif;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
         }
 
         header {
-            background-color: yellow;
+            background-image: url('imagens/rest.jpeg');
+            background-position: left center;
+            background-repeat: repeat;
+            background-size: auto;
+            color: red;
             padding: 20px;
             margin: -10px -10px 10px -10px;
             box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.466);
         }
+
+        header > h1 {
+            display: inline-block;
+            background-color: rgba(0, 0, 0, 0.507);
+        }
+
         a {
             padding: 20px;
+            color: white;
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: red;
+            background-color: rgba(0, 0, 0, 0.452);
+        }
+
+
+        img.face {
+            width: 25px;
+            height: 25px;
+            border-radius: 50px;
+        }
+
+        img.insta {
+            width: 25px;
+            height: 25px;
+            border-radius: 60px;
         }
 
         h1 {
             padding: 20px 20px 5px 5px;
         }
 
-        main {
-            background-color: blue;
-            height: 500px;
-        }
+
 
         div {
             width: 200px;
@@ -42,10 +73,6 @@
                
         }
 
-        section {
-            background-color: blueviolet;
-        }
-        
         p {
             background-color: rgba(0, 0, 0, 0.411);
             color: white;
@@ -71,6 +98,17 @@
             background-size: 200px 200px;
             background-repeat: no-repeat;
         }
+
+        h1.t-unid {
+            text-align: center;
+        }
+
+        .CB, .JS {
+            display: inline-block;
+            margin: 30px 70px 30px 70px;
+            
+        }
+
     </style>
 
 </head>
@@ -79,8 +117,15 @@
     <header>
         <h1>Restaurante du Paulo</h1>
         <nav>
-            <a href="#">Nosso instagram</a>
-            <a href="https://pt-br.facebook.com/restaurantedupaulo/" target="_blank">Nosso facebook</a>
+            <a href="https://www.instagram.com/restaurantedupaulo/" target="_blank">
+                <img src="imagens/insta.jfif" alt="nosso instagram" class="insta">
+                Nosso instagram
+            </a>
+
+            <a href="https://pt-br.facebook.com/restaurantedupaulo/" target="_blank">
+                <img src="imagens/face.jfif" alt="nosso facebook" class="face">
+                Nosso Facebook
+            </a>
         </nav>
     </header>
     <main>
@@ -124,6 +169,12 @@
                 <div class="adicional">
                     <p>Adicionais</p>
                 </div>
+            </section>
+
+            <section class="unidades">
+                <h1 class="t-unid">Unidades</h1>
+                <h2 class="CB">Caio Brandão de Mello, 155 - Humaitá</h2>
+                <h2 class="JS">José Aloísio Filho, 695 - Humaitá</h2>
             </section>
  
 
