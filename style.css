@@ -7,12 +7,12 @@
 
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: yellow;
+    background-color: #f1bb00;
 }
 
 header {
     background-color: black;
-    color: red;
+    color: #e70000;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.397);
     margin-bottom: 15px;
 }
@@ -22,7 +22,7 @@ header > h1 {
 }
 
 header > nav > a {
-    color: red;
+    color: #e70000;
     text-decoration: none;    
     padding-left: 10px;
 }
@@ -40,7 +40,7 @@ header img.icones {
 a#chamarnowpp {
     margin-bottom: 25px;
     text-decoration: none;
-    color: red;
+    color: #e70000;
     font-weight: bold;
     font-size: 1.15em;
     padding: 10px ;
@@ -59,7 +59,7 @@ a#chamarnowpp:hover {
 
 a#pginicial {
     text-decoration: none;
-    color: red;
+    color: #e70000;
     font-weight: bold;
     font-size: 1.15em;
     padding: 10px ;
@@ -85,7 +85,7 @@ li {
 
 li > a {
     text-decoration: none;
-    color: red;
+    color: #e70000;
     padding: 10px ;
     border-radius: 25px;
     font-weight: bold;
