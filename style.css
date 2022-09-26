@@ -39,12 +39,12 @@ header img.icones {
 a#chamarnowpp {
     margin-bottom: 25px;
     text-decoration: none;
-    color: black;
+    color: red;
     font-weight: bold;
     font-size: 1.15em;
     padding: 10px ;
     border-radius: 30px;
-    background-color: rgba(0, 0, 0, 0.336);
+    background-color: black;
     display: block;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5) ;
     
@@ -58,12 +58,12 @@ a#chamarnowpp:hover {
 
 a#pginicial {
     text-decoration: none;
-    color: black;
+    color: red;
     font-weight: bold;
     font-size: 1.15em;
     padding: 10px ;
     border-radius: 30px;
-    background-color: rgba(0, 0, 0, 0.336);
+    background-color: black;
     display: inline;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5) ;
     
@@ -84,12 +84,12 @@ li {
 
 li > a {
     text-decoration: none;
-    color: black;
+    color: red;
     padding: 10px ;
     border-radius: 25px;
     font-weight: bold;
     display: block;
-    background-color: rgba(0, 0, 0, 0.336) ;
+    background-color: rgba(0, 0, 0, 0) ;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5) ;
 
     
